@@ -5,17 +5,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={logo}
+          className="App-logo"
+          alt="logo"
+        />
+        <h1>Music of the 90s</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Relive the sounds of the 90s!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/1990s_in_music"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Explore 90s Music
         </a>
       </header>
     </div>
